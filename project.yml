@@ -1,0 +1,66 @@
+---
+settings:
+  name: StorageGRID
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: es-es,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,fr-fr
+sidebar:
+  entries:
+  - title: Documentos de StorageGRID
+    url: "/index.html"
+  - title: Notas de la versión
+    url: "/whats-new.html"
+  - title: Manos a la obra
+    entries:
+    - title: Descubra sus sistemas StorageGRID
+      url: "/task-discover-storagegrid.html"
+  - title: Gestione los sistemas StorageGRID
+    entries:
+    - title: Vea sus sistemas StorageGRID
+      url: "/task-view-storagegrid.html"
+    - title: Utilice los servicios de datos de NetApp con StorageGRID
+      url: "/task-enable-data-services.html"
+    - title: Eliminar sistemas StorageGRID
+      url: "/task-remove-storagegrid.html"
+  - title: Conocimiento y apoyo
+    entries:
+    - title: Regístrese para recibir soporte
+      url: "/task-support-registration.html"
+    - title: Obtenga ayuda
+      url: "/task-get-help.html"
+  - title: Avisos legales
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Manos a la obra
+    links:
+    - title: Descubra sus sistemas StorageGRID
+      url: task-discover-storagegrid.html
+  - title: Gestione los sistemas StorageGRID
+    links:
+    - title: Vea sus sistemas StorageGRID
+      url: task-view-storagegrid.html
+    - title: Utilice los servicios de datos de NetApp con StorageGRID
+      url: task-enable-data-services.html
+    - title: Quite StorageGRID
+      url: task-remove-storagegrid.html
+  - title: Más información
+    links:
+    - title: Documentación de StorageGRID para la gestión fuera de BlueXP
+      url: https://docs.netapp.com/us-en/storagegrid-116/
+  - title: Blogs y comunidad
+    links:
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog de BlueXP
+      url: https://cloud.netapp.com/blog
+    - title: Seminarios web sobre el cloud
+      url: https://cloud.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Toda la documentación de BlueXP

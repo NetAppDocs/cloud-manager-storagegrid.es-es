@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: BlueXP puede descubrir los sistemas StorageGRID de su entorno local. Añadir clústeres de StorageGRID a BlueXP le permite obtener una visión completa de los datos en todo su multicloud híbrido. 
+---
+= Descubra los sistemas StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+BlueXP puede descubrir los sistemas StorageGRID de su entorno local. Añadir sistemas StorageGRID a BlueXP le permite obtener una visión completa de los datos en todo su multicloud híbrido.
+
+.Lo que necesitará
+* Un conector instalado en un proveedor de cloud o en sus instalaciones, con conectividad de red al sistema StorageGRID.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Obtenga más información sobre conectores y cómo crear uno"^]
+
+* El nombre de dominio o la dirección IP del nodo de administración.
+* Credenciales de administrador para el nodo de administración.
+
+
+.Pasos
+. En el menú de navegación, selecciona *almacenamiento > Canvas*.
+. Haga clic en *Agregar entorno de trabajo* y seleccione *en las instalaciones*.
+. Seleccione *StorageGRID* y haga clic en *Siguiente*.
+. Si se le solicita, cree un conector.
++
+Consulte el enlace anterior para obtener más información.
+
+. En la página _StorageGRID Cluster Details_, introduzca el nombre de dominio o la dirección IP del nodo admin, las credenciales del nodo y, a continuación, haga clic en *Agregar*.
++
+image:screenshot-cluster-details.png["Una captura de pantalla que muestra la página Detalles del clúster de StorageGRID donde se introduce el nombre de dominio o la dirección IP del nodo de administración y las credenciales."]
+
+
+
+.Resultado
+BlueXP descubre el sistema StorageGRID y lo añade como un entorno de trabajo en el lienzo.
+
+image:screenshot-canvas.png["Captura de pantalla que muestra un entorno de trabajo de StorageGRID en el lienzo BlueXP."]

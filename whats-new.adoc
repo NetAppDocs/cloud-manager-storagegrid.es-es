@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid' 
+summary: Descubra las novedades que ofrece la gestión de sistemas StorageGRID en BlueXP. 
+---
+= Novedades de la administración de StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Descubra las novedades de la gestión de sistemas de StorageGRID en BlueXP (anteriormente Cloud Manager).
+
+
+
+== 18 de septiembre de 2022
+
+
+
+=== Compatibilidad con StorageGRID
+
+Ahora puede descubrir sus sistemas StorageGRID directamente desde BlueXP. El descubrimiento de StorageGRID le ofrece una visión completa de los datos en su multicloud híbrido.

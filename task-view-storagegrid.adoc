@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: Después de detectar los sistemas de StorageGRID, puede ver detalles sobre la distribución de la capacidad y las alertas, los nodos y los inquilinos asociados. 
+---
+= Vea sus sistemas StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Después de detectar los sistemas de StorageGRID, puede ver detalles sobre la distribución de la capacidad y las alertas, los nodos y los inquilinos asociados.
+
+.Pasos
+. Desde el lienzo, haga doble clic en el nombre del entorno de trabajo de StorageGRID que desea ver.
+. Seleccione una de las pestañas para ver más detalles sobre el sistema StorageGRID:
++
+** *Descripción general*: Una vista detallada de la distribución de la capacidad del sistema (capacidad utilizada y libre), el número de alertas del sistema, nodos e inquilinos, y más.
++
+image:screenshot-overview.png["Captura de pantalla de la ficha Descripción general en un entorno de trabajo de StorageGRID."]
+
+** *Alertas*: Un resumen de las alertas del sistema, que incluye alertas activas, alertas resueltas y alertas silenciadas.
+** *Nodes*: Detalles sobre el nodo de administración, el nodo de puerta de enlace de la API y los nodos de almacenamiento. Esto incluye porcentajes de datos de objeto utilizados, metadatos de objetos usados y uso de CPU.
++
+image:screenshot-nodes.png["Captura de pantalla de la ficha nodos de un entorno de trabajo StorageGRID."]
+
+** *Arrendatarios*: Detalles clave sobre los arrendatarios, que incluye el espacio lógico utilizado, la utilización de las cuotas, la cuota y el recuento de objetos.
++
+image:screenshot-tenants.png["Captura de pantalla de la ficha arrendatarios en un entorno de trabajo StorageGRID."]
+
+
+
+
